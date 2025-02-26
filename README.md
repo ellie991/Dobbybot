@@ -18,7 +18,7 @@ Dobby Chatbot is an AI-powered chatbot that mimics the speech and personality of
    pip install -r requirements.txt
    ```
 2. Set up your OpenAI API key:
-   - Insert your personal key in *OpenAI_API_Key.txt*.
+   - Insert your personal key in *OpenAI_API_Key.txt* and the right path in:
    ```bash
     with open('path/OpenAI_API_Key.txt', 'r') as file:
       api_key = file.read()
